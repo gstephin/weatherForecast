@@ -13,6 +13,7 @@ data class ForecastResponse(
     val list: List<ForecastItem>,
     val city: CityInfo
 )
+
 data class CityInfo(
     val id: Int,
     val name: String,
