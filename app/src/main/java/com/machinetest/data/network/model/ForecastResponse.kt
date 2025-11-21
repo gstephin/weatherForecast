@@ -8,6 +8,7 @@ import com.google.gson.annotations.SerializedName
  * @author stephingeorge
  * @date 12/11/2025
  */
+
 data class ForecastResponse(
     val list: List<ForecastItem>,
     val city: CityInfo
